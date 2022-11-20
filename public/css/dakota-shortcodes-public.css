@@ -1,0 +1,24 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+ #wp-cart-count {
+    -webkit-mask: url(../images/cart-icon.svg) center/cover no-repeat;
+    mask: url(../images/cart-icon.svg) center/cover no-repeat;
+    width: 50px !important;
+    height: 50px !important;
+    background: white;
+    cursor: pointer;
+
+    display: flex;
+    align-content: center;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+
+#wp-cart-count span{
+    margin-top: 5px;
+    margin-left: 5px;
+}
